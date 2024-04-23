@@ -45,11 +45,11 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 467B942D3A79BD29
 
 apt update
 
-wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-1+debian11_all.deb
+wget https://repo.zabbix.com/zabbix/6.2/debian/pool/main/z/zabbix-release/zabbix-release_6.2-2%2debian11_all.deb
 
 apt install -y mysql-community-server 
 
-dpkg -i zabbix-release_6.0-1+debian11_all.deb 
+dpkg -i zabbix-release_6.2-2+debian11_all.deb 
 
 apt update
 
